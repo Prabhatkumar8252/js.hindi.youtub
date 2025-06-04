@@ -41,3 +41,23 @@ console.log(typeof outsideTemp);
 console.log(typeof scoreValue);
 console.log(typeof myFunction);
 console.log(typeof anotherId);
+
+// stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "kumarprabhat37299@gmail.com"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+let user1 = {
+    email : "user@google.com",
+    upId : "user@ybl"
+}
+
+let user2 = user1
+
+user2.email = "kumarprabhat37299@gmail.com"
+console.log(user2.email);
+console.log(user1.email);
